@@ -1,0 +1,238 @@
+header {
+  margin: 0;
+  padding: 0;
+}
+
+/* styling for Header 1 & 2 */
+h1,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+/* Styling for Header 3 & and navheading id */
+h3,
+footer {
+  font-size: 2.063rem;
+  font-weight: 300;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+/* Styling for Navigation Bar */
+.navhead {
+  box-sizing: border-box;
+  display: block;
+  background-color: #fff0ed;
+  width: 100%;
+}
+
+.navhead-icon {
+  width: 3.125rem;
+  padding-left: 0.625rem;
+}
+
+.titlelink {
+  display: inline-block;
+  background-color: #fff0ed;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.navhead-list {
+  display: inline-block;
+  list-style-type: none;
+  padding: 1.25rem;
+}
+
+.navlist {
+  display: inline;
+  padding: 1.25rem;
+  border: 0;
+  margin: 0;
+  background-color: #fff0ed;
+}
+
+.link-text {
+  text-decoration: none;
+}
+
+.navhead-link {
+  font-size: 1.313rem;
+  font-weight: 400;
+  display: inline;
+  padding: 1.25rem;
+}
+
+.navhead-link__blue {
+  color: #5bacc3;
+}
+
+/* Banner Section */
+.banner-section {
+  background-color: #fff0ed;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 350px;
+}
+.banner-section__container {
+  display: inline-block;
+  height: fit-content;
+  width: 380px;
+  text-align: left;
+  margin: 20px;
+  padding-left: 5%;
+}
+
+.banner-section__header {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.banner-section__text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.button-link {
+  font-size: 1.313;
+  font-weight: 400;
+  color: #fff;
+  background-color: #5bacc3;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 11.25rem;
+}
+
+.banner__picture {
+  height: 330px;
+  float: right;
+  padding-right: 30%;
+}
+
+/* Main Section */
+
+.product-section {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.product-section__header {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.products-card {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  width: 330px;
+  height: 440px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 25);
+}
+
+.product-price {
+  color: #5bacc3;
+}
+
+.products-card__image {
+  height: 17.5rem;
+}
+
+.product-button-link {
+  font-size: 1.313;
+  font-weight: 400;
+  color: #fff;
+  background-color: #5bacc3;
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px;
+  width: 11.25rem;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Discount Section */
+
+.discount-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+}
+.discount-section_container {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.discount__text {
+  width: 90%;
+  background-color: #393939;
+  font-size: 2.813rem;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.discount__text span {
+  font-weight: 700;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #fff0ed;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-card {
+  display: inline-block;
+  margin: 20px;
+}
+
+.footer-hour span {
+  font-weight: 700;
+}
+
+.footer-icons {
+  width: 3.125rem;
+}
