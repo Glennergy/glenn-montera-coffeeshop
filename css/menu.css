@@ -28,7 +28,8 @@ p {
 /* Styling for Navigation Bar */
 .navhead {
   box-sizing: border-box;
-  display: block;
+  display: flex;
+  justify-content: space-between;
   background-color: #fff0ed;
   width: 100%;
 }
@@ -38,11 +39,16 @@ p {
   padding-left: 0.625rem;
 }
 
+.navhead-divider {
+  display: inline;
+}
+
 .titlelink {
   display: inline-block;
   background-color: #fff0ed;
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
+  color: #393939;
 }
 
 .navhead-list {
@@ -64,6 +70,11 @@ p {
   font-weight: 400;
   display: inline;
   padding: 1.25rem;
+}
+
+.link-text {
+  text-decoration: none;
+  color: #393939;
 }
 
 .navhead-link__blue {
