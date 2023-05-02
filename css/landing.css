@@ -181,6 +181,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-items: center;
 }
 
 .products-text__grey {
