@@ -1,0 +1,193 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+/* styling for Header 1 & 2 */
+h1,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+/* Styling for Header 3 */
+h3 {
+  font-size: 2.063rem;
+  font-weight: 300;
+}
+
+/* default styling for a tags */
+a {
+  text-decoration: none;
+}
+
+/* default styling for p tag */
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 1.25rem;
+}
+
+/* Styling for Navigation Bar */
+.navhead {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff0ed;
+  width: 100%;
+}
+
+.navhead-icon {
+  width: 3.125rem;
+  padding-left: 0.625rem;
+}
+
+.navhead-divider {
+  display: inline;
+}
+
+.titlelink {
+  display: inline-block;
+  background-color: #fff0ed;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  color: #393939;
+}
+
+.navhead-list {
+  display: inline-block;
+  list-style-type: none;
+  padding: 1.25rem;
+}
+
+.navlist {
+  display: inline;
+  padding: 1.25rem;
+  border: 0;
+  margin: 0;
+  background-color: #fff0ed;
+}
+
+.navhead-link {
+  font-size: 1.313rem;
+  font-weight: 400;
+  display: inline;
+  padding: 1.25rem;
+}
+
+.link-text {
+  text-decoration: none;
+  color: #393939;
+}
+
+.navhead-link__blue {
+  color: #5bacc3;
+}
+
+/* Banner Section*/
+.titlebox {
+  width: 18.75rem;
+  height: 12.5rem;
+  background-color: #393939;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlebox__detail {
+  width: 18.75rem;
+  height: 12.5rem;
+  border: 5px solid #5bacc3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 15px;
+  bottom: 15px;
+}
+
+.titleboxtext {
+  color: white;
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+.titlebox__background {
+  width: 100%;
+  height: 43.75rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/coffee-circle.jpg);
+}
+
+/* Sub-Menu  */
+.subnav {
+  width: 100%;
+  background-color: #393939;
+  text-align: center;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.subnav-container {
+  margin: 0;
+}
+
+.subnav-list {
+  display: inline-block;
+  border-left: 3px solid #5bacc3;
+  margin: 1.25rem 0;
+  padding: 0.313rem 1.25rem;
+  list-style-type: none;
+  padding: 1.25rem;
+}
+
+.subnav-list__item {
+  color: white;
+}
+
+/* Main Section */
+.menu-block {
+  background-color: #fff0ed;
+}
+
+.menu-block:nth-child(2n) {
+  background-color: white;
+}
+
+.menu-block__title {
+  text-align: center;
+  margin: 0;
+  padding: 1.25rem 0;
+}
+
+.menu-block__item {
+  text-align: center;
+}
+
+.menu-item-desc__container {
+  text-align: center;
+  display: block;
+}
+
+.itemdescription {
+  font-style: italic;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  word-wrap: normal;
+  width: 30rem;
+}
+
+.menu-item-price {
+  text-align: center;
+  color: #5bacc3;
+}/*# sourceMappingURL=menu.css.map */

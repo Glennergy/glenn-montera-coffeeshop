@@ -1,0 +1,373 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+/* styling for Header 1 & 2 */
+h1,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  margin-top: 0;
+  color: #393939;
+}
+
+/* Styling for Header 3 & and navheading id */
+h3,
+footer {
+  font-size: 2.063rem;
+  font-weight: 300;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+/* Styling for Navigation Bar */
+.navhead {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff0ed;
+  width: 100%;
+}
+
+.navhead-divider {
+  display: inline;
+}
+
+.navhead-icon {
+  width: 3.125rem;
+  padding-left: 0.625rem;
+}
+
+.titlelink {
+  display: inline-block;
+  background-color: #fff0ed;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.navhead-list {
+  display: inline-block;
+  list-style-type: none;
+  padding: 1.25rem;
+}
+
+.navlist {
+  display: inline;
+  padding: 1.25rem;
+  border: 0;
+  margin: 0;
+  background-color: #fff0ed;
+}
+
+.link-text {
+  text-decoration: none;
+  color: #393939;
+}
+
+.navhead-link {
+  font-size: 1.313rem;
+  font-weight: 400;
+  display: inline;
+  padding: 1.25rem;
+}
+
+.navhead-link__blue {
+  color: #5bacc3;
+}
+
+/* Banner Section */
+.banner-section {
+  background-color: #fff0ed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 350px;
+}
+
+.banner-section__container {
+  display: flex;
+  flex-direction: column;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 380px;
+  text-align: left;
+  margin: 20px;
+  padding-left: 5%;
+}
+
+.banner-section__header {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.banner-section__text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.button-link {
+  font-size: 1.313;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 20px 0;
+  width: 11.25rem;
+  position: relative;
+  top: 5px;
+  right: 5px;
+  outline: 2px solid #393939;
+}
+
+.button-link__outline {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 42px;
+  position: relative;
+  display: inline-block;
+  background-color: #5bacc3;
+}
+
+.banner__picture {
+  height: 330px;
+  float: right;
+  padding-right: 15%;
+}
+
+/* Main Section */
+.product-section {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.product-section__header {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.products-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  width: 330px;
+  height: 440px;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px rgb(0, 0, 0);
+  justify-content: space-between;
+}
+
+.products-card__desc {
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  background-color: #fff0ed;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.products-desc__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+}
+
+.products-text__grey {
+  margin: 0;
+  color: #909090;
+}
+
+.products-text__title {
+  margin: 0;
+}
+
+.product-price {
+  color: #5bacc3;
+  margin: 0;
+  align-self: center;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.products-card__image {
+  height: 17.5rem;
+  padding: 20px;
+}
+
+.product-button-link {
+  font-size: 1.313;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 20px 0;
+  width: 11.25rem;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+  right: 5px;
+  outline: 2px solid #393939;
+}
+
+/* Discount Section */
+.discount-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+}
+
+.discount-section__top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.discount-section__top__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 450px;
+  padding: 20px;
+}
+
+.discount-section__top__right {
+  display: flex;
+  background-image: url(../assets/coldbrewbackground.png);
+  background-size: 400px;
+  width: 350px;
+  /* padding: 20px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.learn-more {
+  margin: 20px 0 20px 0;
+}
+
+.top-left__title {
+  margin: 0;
+}
+
+.top-left__text {
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.top-left__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.discount-section_container {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.discount-section__top__right__container {
+  width: 400px;
+  border: 5px solid #5bacc3;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+}
+
+.discount__text {
+  width: 90%;
+  background-color: #393939;
+  font-size: 2.813rem;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.discount__text span {
+  font-weight: 700;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #fff0ed;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-card {
+  display: inline-block;
+  margin: 20px;
+}
+
+.footer-hour span {
+  font-weight: 700;
+}
+
+.icons {
+  width: 3.125rem;
+}
+
+.footer-bean {
+  width: 120px;
+  opacity: 25%;
+}
+
+.footer-bean__right {
+  position: absolute;
+  right: -35px;
+  bottom: -1300px;
+}
+
+.footer-bean__left {
+  position: absolute;
+  left: -35px;
+}/*# sourceMappingURL=landing.css.map */
