@@ -270,7 +270,7 @@ p {
   background-image: url(../assets/coldbrewbackground.png);
   background-size: 400px;
   width: 350px;
-  padding: 20px;
+  /* padding: 20px; */
   justify-content: center;
   align-items: center;
 }
@@ -302,7 +302,13 @@ p {
   margin-bottom: 20px;
   text-align: center;
 }
-
+.discount-section__top__right__container {
+  width: 400px;
+  border: 5px solid #5bacc3;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+}
 .discount__text {
   width: 90%;
   background-color: #393939;
@@ -336,4 +342,20 @@ p {
 
 .icons {
   width: 3.125rem;
+}
+
+.footer-bean {
+  width: 120px;
+  opacity: 25%;
+}
+
+.footer-bean__right {
+  position: absolute;
+  right: -35px;
+  bottom: -1300px;
+}
+
+.footer-bean__left {
+  position: absolute;
+  left: -35px;
 }

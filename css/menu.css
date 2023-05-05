@@ -87,11 +87,22 @@ p {
   width: 18.75rem;
   height: 12.5rem;
   background-color: #393939;
-  display: inline-block;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.titlebox__detail {
+  width: 18.75rem;
+  height: 12.5rem;
+  border: 5px solid #5bacc3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 15px;
+  bottom: 15px;
 }
 
 .titleboxtext {
