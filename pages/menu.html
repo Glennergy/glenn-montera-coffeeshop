@@ -13,49 +13,51 @@
   <body>
     <!-- Navigation Bar -->
     <nav class="navhead">
-      <div class="navhead-divider">
+      <div class="navhead__divider">
         <img
-          class="navhead-icon"
+          class="navhead__icon"
           src="../assets/coffee-beans-logo-and-footer.svg"
           alt="Coffee Bean Logo"
         />
-        <a class="navhead-title" href="../index.html"
-          ><h2 class="titlelink">nitro</h2></a
+        <a class="navhead__title" href="../index.html"
+          ><h2 class="navhead__titlelink">nitro</h2></a
         >
       </div>
-      <div class="navhead-divider">
-        <ul class="navhead-list">
-          <li class="navhead-link">
-            <a class="link-text" href="../index.html">ABOUT</a>
+      <div class="navhead__divider">
+        <ul class="navhead__list">
+          <li class="navhead__link">
+            <a class="navhead__text" href="../index.html">ABOUT</a>
           </li>
-          <li class="navhead-link">
-            <a class="link-text" href="menu.html">MENU</a>
+          <li class="navhead__link">
+            <a class="navhead__text" href="./menu.html">MENU</a>
           </li>
-          <li class="navhead-link">
-            <a class="navhead-link__blue" href="menu.html">SHOP NOW</a>
+          <li class="navhead__link">
+            <a class="navhead__text navhead__link--blue" href="./menu.html"
+              >SHOP NOW</a
+            >
           </li>
         </ul>
       </div>
     </nav>
     <!-- Picture Banner -->
-    <div class="titlebox__background">
-      <div class="titlebox">
+    <div class="titlebox">
+      <div class="titlebox__container">
         <div class="titlebox__detail">
-          <h1 class="titleboxtext">MENU</h1>
+          <h1 class="titlebox__text">MENU</h1>
         </div>
       </div>
     </div>
     <!-- Sub-Menu -->
     <nav class="subnav">
-      <ul class="subnav-container">
-        <li class="subnav-list">
-          <a class="subnav-list__item" href="#hot-drink-items">HOT DRINKS</a>
+      <ul class="subnav__container">
+        <li class="subnav__list">
+          <a class="subnav__list__item" href="#hot-drink-items">HOT DRINKS</a>
         </li>
-        <li class="subnav-list">
-          <a class="subnav-list__item" href="#cold-drink-items">COLD DRINKS</a>
+        <li class="subnav__list">
+          <a class="subnav__list__item" href="#cold-drink-items">COLD DRINKS</a>
         </li>
-        <li class="subnav-list">
-          <a class="subnav-list__item" href="#pastry-items">PASTRIES</a>
+        <li class="subnav__list">
+          <a class="subnav__list__item" href="#pastry-items">PASTRIES</a>
         </li>
       </ul>
     </nav>
@@ -66,71 +68,71 @@
         <h2 class="menu-block__title">Hot Drinks</h2>
 
         <h3 class="menu-block__item">In-house Brew</h3>
-        <div class="menu-item-desc__container">
-          <p class="itemdescription">
+        <div class="menu-block__container">
+          <p class="menu-block__itemdescription">
             Our in-house medium roast is a classic balance between sweet
             vanilla, nutty hazelnut, and a smooth low acidity to bring
             everything together.
           </p>
         </div>
-        <p class="menu-item-price">$2.99</p>
+        <p class="menu-block__price">$2.99</p>
 
         <h3 class="menu-block__item">Espresso</h3>
-        <div class="menu-item-desc__container">
-          <p class="itemdescription">
+        <div class="menu-block__container">
+          <p class="menu-block__itemdescription">
             A balance between bold and smooth, powerful and sweet, our signature
             espresso blend is a complex flavor profile. It features strong notes
             of semi-sweet chocolate and caramel, with mild acidity and a bright
             floral finish.
           </p>
         </div>
-        <p class="menu-item-price">$4.99</p>
+        <p class="menu-block__price">$4.99</p>
       </section>
       <!-- Cold Drink Section -->
       <section class="menu-block" id="cold-drink-items">
         <h2 class="menu-block__title">Cold Drinks</h2>
 
         <h3 class="menu-block__item">Cold Brew</h3>
-        <div class="menu-item-desc__container">
-          <p class="itemdescription">
+        <div class="menu-block__container">
+          <p class="menu-block__itemdescription">
             Our bright and delicious coffee blend, brewed over ice to give you a
             cold coffee freshness with all the flavor of our amazing in-house
             coffee.
           </p>
         </div>
-        <p class="menu-item-price">$3.99</p>
+        <p class="menu-block__price">$3.99</p>
 
         <h3 class="menu-block__item">Iced Chai Latte</h3>
-        <div class="menu-item-desc__container">
-          <p class="itemdescription">
+        <div class="menu-block__container">
+          <p class="menu-block__itemdescription">
             A creamy drink with a kick, this drink features spicy chai tea
             blended with your choice of milk and poured over ice.
           </p>
         </div>
-        <p class="menu-item-price">$6.99</p>
+        <p class="menu-block__price">$6.99</p>
       </section>
       <!-- Pastry Item Section -->
       <section class="menu-block" id="pastry-items">
         <h2 class="menu-block__title">Pastries</h2>
 
         <h3 class="menu-block__item">Bacon Oatmeal Raisin Cookie</h3>
-        <div class="menu-item-desc__container">
-          <p class="itemdescription">
+        <div class="menu-block__container">
+          <p class="menu-block__itemdescription">
             An infused bacon, sugar and egg mixture is folded into a perfect
             blend of oats, flour, raisins and cinnamon to create a soft and
             chewy textured cookie.
           </p>
         </div>
-        <p class="menu-item-price">$3.50</p>
+        <p class="menu-block__price">$3.50</p>
 
         <h3 class="menu-block__item">Blueberry, Lemon and Thyme Muffin</h3>
-        <div class="menu-item-desc__container">
-          <p class="itemdescription">
+        <div class="menu-block__container">
+          <p class="menu-block__itemdescription">
             Tart and sweet, this classic blueberry and lemon combination comes
             with an earthy twist.
           </p>
         </div>
-        <p class="menu-item-price">$2.50</p>
+        <p class="menu-block__price">$2.50</p>
       </section>
     </main>
   </body>

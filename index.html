@@ -15,26 +15,28 @@
     <header>
       <!-- Navigation Bar -->
       <nav class="navhead">
-        <div class="navhead-divider">
+        <div class="navhead__divider">
           <img
-            class="navhead-icon"
+            class="navhead__icon"
             src="../assets/coffee-beans-logo-and-footer.svg"
             alt="Coffee Bean Logo"
           />
-          <a class="navhead-title" href="./index.html"
-            ><h2 class="titlelink">nitro</h2></a
+          <a class="navhead__title" href="./index.html"
+            ><h2 class="navhead__titlelink">nitro</h2></a
           >
         </div>
-        <div class="navhead-divider">
-          <ul class="navhead-list">
-            <li class="navhead-link">
-              <a class="link-text" href="./index.html">ABOUT</a>
+        <div class="navhead__divider">
+          <ul class="navhead__list">
+            <li class="navhead__link">
+              <a class="navhead__text" href="./index.html">ABOUT</a>
             </li>
-            <li class="navhead-link">
-              <a class="link-text" href="./pages/menu.html">MENU</a>
+            <li class="navhead__link">
+              <a class="navhead__text" href="./pages/menu.html">MENU</a>
             </li>
-            <li class="navhead-link">
-              <a class="link-text navhead-link__blue" href="./pages/menu.html"
+            <li class="navhead__link">
+              <a
+                class="navhead__text navhead__link--blue"
+                href="./pages/menu.html"
                 >SHOP NOW</a
               >
             </li>
@@ -55,7 +57,7 @@
         </div>
       </div>
       <img
-        class="banner__picture"
+        class="banner-section__picture"
         src="./assets/coffeebeans-hero.png"
         alt="coffee bag"
       />
@@ -64,53 +66,53 @@
     <main>
       <section class="product-section">
         <h2 class="product-section__header">Our Products</h2>
-        <div class="product-container">
-          <div class="products-card">
-            <div class="product-image_container">
+        <div class="product-section__container">
+          <div class="product-section__card">
+            <div class="product-section__image_container">
               <img
-                class="products-card__image"
+                class="product-section__card_image"
                 src="./assets/coffeebeans-hero.png"
                 alt="Coffee Beans"
               />
             </div>
-            <div class="products-card__desc">
-              <div class="products-desc__text">
-                <h3 class="products-text__title">Coffee Beans</h3>
-                <p class="products-text__grey">Pack of 3</p>
+            <div class="product-section__card_desc">
+              <div class="product-section__desc_text">
+                <h3 class="product-section__text_title">Coffee Beans</h3>
+                <p class="product-section__text_grey">Pack of 3</p>
               </div>
-              <p class="product-price">$19</p>
+              <p class="product-section__price">$19</p>
             </div>
           </div>
-          <div class="products-card">
-            <div class="product-image_container">
+          <div class="product-section__card">
+            <div class="product-section__image_container">
               <img
-                class="products-card__image"
+                class="product-section__card_image"
                 src="./assets/coldbrew.png"
                 alt="Cold Brew"
               />
             </div>
-            <div class="products-card__desc">
-              <div class="products-desc__text">
-                <h3 class="products-text__title">Cold Brew</h3>
-                <p class="products-text__grey">1 can</p>
+            <div class="product-section__card_desc">
+              <div class="product-section__desc_text">
+                <h3 class="product-section__text_title">Cold Brew</h3>
+                <p class="product-section__text_grey">1 can</p>
               </div>
-              <p class="product-price">$5</p>
+              <p class="product-section__price">$5</p>
             </div>
           </div>
-          <div class="products-card">
-            <div class="product-image_container">
+          <div class="product-section__card">
+            <div class="product-section__image_container">
               <img
-                class="products-card__image"
+                class="product-section__card_image"
                 src="./assets/inhousebrew.png"
                 alt="In-House Brew"
               />
             </div>
-            <div class="products-card__desc">
-              <div class="products-desc__text">
-                <h3 class="products-text__title">In-house Brew</h3>
-                <p class="products-text__grey">1 cup</p>
+            <div class="product-section__card_desc">
+              <div class="product-section__desc_text">
+                <h3 class="product-section__text_title">In-house Brew</h3>
+                <p class="product-section__text_grey">1 cup</p>
               </div>
-              <p class="product-price">$3</p>
+              <p class="product-section__price">$3</p>
             </div>
           </div>
         </div>
@@ -122,12 +124,12 @@
       <section class="discount-section">
         <div class="discount-section__top">
           <div class="discount-section__top__left">
-            <h2 class="top-left__title">We're Different</h2>
-            <p class="top-left__text">
+            <h2 class="discount-section__top__left__title">We're Different</h2>
+            <p class="discount-section__top__left__text">
               We grow and roast our own beans. Every bean, every cup, every step
               of the way, we strive for excellence
             </p>
-            <div class="top-left__icons">
+            <div class="discount-section__top__left__icons">
               <img class="icons" src="./assets/planting.svg" alt="planting" />
               <img
                 class="icons"
@@ -141,23 +143,21 @@
               />
             </div>
             <div class="button-link__outline">
-              <a class="learn-more product-button-link" href="./index.html">
-                LEARN MORE
-              </a>
+              <a class="learn-more" href="./index.html"> LEARN MORE </a>
             </div>
           </div>
           <div class="discount-section__top__right">
             <div class="discount-section__top__right__container">
               <img
-                class="tilt products-card__image"
+                class="product-section__card_image"
                 src="./assets/tiltedcan.png"
                 alt="coldbrew"
               />
             </div>
           </div>
         </div>
-        <div class="discount-section_container">
-          <p class="discount__text">
+        <div class="discount-section__container">
+          <p class="discount-section__container__text">
             Get 20% off your first order with code: <span>FirstNitro</span>
           </p>
         </div>
@@ -166,18 +166,18 @@
 
     <!-- Footer Section -->
     <footer class="footer">
-      <div class="footer-card">
+      <div class="footer__card">
         <h3>Address</h3>
         <p>503 Broadway Penthouse <br /><br />New York</p>
       </div>
-      <div class="footer-card">
+      <div class="footer__card">
         <h3>Hours</h3>
-        <p class="footer-hour">
+        <p class="footer__hour">
           <span>Monday - Friday</span>: 9am - 7pm <br /><br />
           <span>Saturday - Sunday</span>: 10am - 5pm
         </p>
       </div>
-      <div class="footer-card">
+      <div class="footer__card">
         <h3>Social</h3>
         <a href="https://www.facebook.com/"
           ><img class="icons" src="./assets/Facebook-Icon.svg" alt="facebook"
@@ -190,12 +190,12 @@
         /></a>
       </div>
       <img
-        class="footer-bean footer-bean__left"
+        class="footer__bean footer__bean--left"
         src="./assets/coffee-beans-logo-and-footer.svg"
         alt="coffee-beans-logo-and-footer"
       />
       <img
-        class="footer-bean footer-bean__right"
+        class="footer__bean footer__bean--right"
         src="./assets/coffee-beans-logo-and-footer.svg"
         alt="coffee-beans-logo-and-footer"
       />

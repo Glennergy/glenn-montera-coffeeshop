@@ -1,5 +1,7 @@
 @use "./partials/__global.scss" as *;
 
+/* Variables  */
+
 /* styling for Header 1 & 2 */
 h1,
 h2 {
@@ -35,13 +37,20 @@ p {
   background-color: #fff0ed;
   width: 100%;
 
+  &__divider {
+    display: inline;
+  }
+
   &__icon {
     width: 3.125rem;
     padding-left: 0.625rem;
   }
 
-  &__divider {
-    display: inline;
+  &__title {
+    display: inline-block;
+    background-color: #fff0ed;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
   }
 
   &__titlelink {
@@ -58,61 +67,25 @@ p {
     padding: 1.25rem;
   }
 
-  &__navlist {
-    display: inline;
-    padding: 1.25rem;
-    border: 0;
-    margin: 0;
-    background-color: #fff0ed;
-  }
-
-  .navhead-link {
-    font-size: 1.313rem;
-    font-weight: 400;
-    display: inline;
-    padding: 1.25rem;
-  }
-
   &__text {
     text-decoration: none;
     color: #393939;
   }
 
-  .navhead-link__blue {
-    color: #5bacc3;
+  &__link {
+    font-size: 1.313rem;
+    font-weight: 400;
+    display: inline;
+    padding: 1.25rem;
+
+    &--blue {
+      color: #5bacc3;
+    }
   }
 }
-/* Banner Section*/
+/* Picture Banner*/
 
 .titlebox {
-  width: 18.75rem;
-  height: 12.5rem;
-  background-color: #393939;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.titlebox__detail {
-  width: 18.75rem;
-  height: 12.5rem;
-  border: 5px solid #5bacc3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  right: 15px;
-  bottom: 15px;
-}
-
-.titleboxtext {
-  color: white;
-  text-align: center;
-  margin-top: 1.25rem;
-}
-
-.titlebox__background {
   width: 100%;
   height: 43.75rem;
   text-align: center;
@@ -122,6 +95,34 @@ p {
   background-position: center;
   background-size: cover;
   background-image: url(../assets/coffee-circle.jpg);
+
+  &__container {
+    width: 18.75rem;
+    height: 12.5rem;
+    background-color: #393939;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__detail {
+    width: 18.75rem;
+    height: 12.5rem;
+    border: 5px solid #5bacc3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 15px;
+    bottom: 15px;
+  }
+
+  &__text {
+    color: white;
+    text-align: center;
+    margin-top: 1.25rem;
+  }
 }
 
 /* Sub-Menu  */
@@ -130,60 +131,60 @@ p {
   background-color: #393939;
   text-align: center;
   text-decoration: solid;
-}
 
-.subnav-container {
-  margin: 0;
-}
+  &__container {
+    margin: 0;
+  }
 
-.subnav-list {
-  display: inline-block;
-  border-left: 3px solid #5bacc3;
-  margin: 1.25rem 0;
-  padding: 0.313rem 1.25rem;
-  list-style-type: none;
-  padding: 1.25rem;
-}
+  &__list {
+    display: inline-block;
+    border-left: 3px solid #5bacc3;
+    margin: 1.25rem 0;
+    padding: 0.313rem 1.25rem;
+    list-style-type: none;
+    padding: 1.25rem;
 
-.subnav-list__item {
-  color: white;
+    &__item {
+      color: white;
+    }
+  }
 }
 
 /* Main Section */
 
 .menu-block {
   background-color: #fff0ed;
-}
 
-.menu-block:nth-child(2n) {
-  background-color: white;
-}
+  &:nth-child(2n) {
+    background-color: white;
+  }
 
-.menu-block__title {
-  text-align: center;
-  margin: 0;
-  padding: 1.25rem 0;
-}
+  &__title {
+    text-align: center;
+    margin: 0;
+    padding: 1.25rem 0;
+  }
 
-.menu-block__item {
-  text-align: center;
-}
+  &__item {
+    text-align: center;
+  }
 
-.menu-item-desc__container {
-  text-align: center;
-  display: block;
-}
+  &__container {
+    text-align: center;
+    display: block;
+  }
 
-.itemdescription {
-  font-style: italic;
-  text-align: center;
-  position: relative;
-  display: inline-block;
-  word-wrap: normal;
-  width: 30rem;
-}
+  &__itemdescription {
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    word-wrap: normal;
+    width: 30rem;
+  }
 
-.menu-item-price {
-  text-align: center;
-  color: #5bacc3;
+  &__price {
+    text-align: center;
+    color: #5bacc3;
+  }
 }
