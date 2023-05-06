@@ -1,4 +1,4 @@
-@use "./partials/global" as *;
+@use "./partials/__global.scss" as *;
 
 /* styling for Header 1 & 2 */
 h1,
@@ -34,55 +34,54 @@ p {
   justify-content: space-between;
   background-color: #fff0ed;
   width: 100%;
-}
 
-.navhead-icon {
-  width: 3.125rem;
-  padding-left: 0.625rem;
-}
+  &__icon {
+    width: 3.125rem;
+    padding-left: 0.625rem;
+  }
 
-.navhead-divider {
-  display: inline;
-}
+  &__divider {
+    display: inline;
+  }
 
-.titlelink {
-  display: inline-block;
-  background-color: #fff0ed;
-  margin-top: 0.625rem;
-  margin-bottom: 0.625rem;
-  color: #393939;
-}
+  &__titlelink {
+    display: inline-block;
+    background-color: #fff0ed;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    color: #393939;
+  }
 
-.navhead-list {
-  display: inline-block;
-  list-style-type: none;
-  padding: 1.25rem;
-}
+  &__list {
+    display: inline-block;
+    list-style-type: none;
+    padding: 1.25rem;
+  }
 
-.navlist {
-  display: inline;
-  padding: 1.25rem;
-  border: 0;
-  margin: 0;
-  background-color: #fff0ed;
-}
+  &__navlist {
+    display: inline;
+    padding: 1.25rem;
+    border: 0;
+    margin: 0;
+    background-color: #fff0ed;
+  }
 
-.navhead-link {
-  font-size: 1.313rem;
-  font-weight: 400;
-  display: inline;
-  padding: 1.25rem;
-}
+  .navhead-link {
+    font-size: 1.313rem;
+    font-weight: 400;
+    display: inline;
+    padding: 1.25rem;
+  }
 
-.link-text {
-  text-decoration: none;
-  color: #393939;
-}
+  &__text {
+    text-decoration: none;
+    color: #393939;
+  }
 
-.navhead-link__blue {
-  color: #5bacc3;
+  .navhead-link__blue {
+    color: #5bacc3;
+  }
 }
-
 /* Banner Section*/
 
 .titlebox {
